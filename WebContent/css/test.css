@@ -1,0 +1,89 @@
+
+ .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus
+	{
+	-webkit-box-shadow: 0 0 12px #38c;
+	-moz-box-shadow: 0 0 12px #38c;
+	box-shadow: 0 0 12px #38c
+}
+
+div.ui-slider {
+	height: 30px;
+	margin: .5em 0;
+	padding: 0;
+	-ms-touch-action: pan-y pinch-zoom double-tap-zoom
+}
+
+div.ui-slider:before,div.ui-slider:after {
+	content: "";
+	display: table
+}
+
+div.ui-slider:after {
+	clear: both
+}
+
+input.ui-slider-input {
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+	padding: 4px;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	border-width: 1px;
+	border-style: solid;
+	outline: 0;
+	text-align: center;
+	vertical-align: text-bottom;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box
+}
+
+.ui-slider-input::-webkit-outer-spin-button,.ui-slider-input::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0
+}
+
+.ui-slider-track {
+	position: relative;
+	overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	height: 15px;
+	margin: 0 15px 0 68px;
+	top: 6px
+}
+
+.ui-slider-track.ui-mini {
+	height: 12px;
+	top: 8px
+}
+
+.ui-slider-track .ui-slider-bg {
+	height: 100%
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 28px;
+	height: 28px;
+	margin: -15px 0 0 -15px;
+	outline: 0;
+	padding: 0
+}
+
+
+
+
+
+
